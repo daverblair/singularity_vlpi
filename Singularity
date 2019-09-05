@@ -5,14 +5,14 @@ From: marcchpc/pytorch_cuda9
   # use bash as default shell
   SHELL=/bin/bash
   export SHELL
-  
+
   # add CUDA paths
   CPATH="/usr/local/cuda/include:$CPATH"
   PATH="/usr/local/cuda/bin:$PATH"
   LD_LIBRARY_PATH="/usr/local/cuda/lib64:$LD_LIBRARY_PATH"
   CUDA_HOME="/usr/local/cuda"
   export CPATH PATH LD_LIBRARY_PATH CUDA_HOME
-  
+
   # make conda accessible
   PATH=/opt/conda/envs/pytorch-py3.6/bin:$PATH
   export PATH
@@ -30,17 +30,15 @@ From: marcchpc/pytorch_cuda9
   chmod +x /environment
 
   # default mount paths, files
-  mkdir /scratch /data /work-zfs 
+  mkdir /scratch /data /work-zfs
   touch /usr/bin/nvidia-smi
-  
+
   # user requests (contact marcc-help@marcc.jhu.edu)
-  /opt/conda/bin/conda install opencv scikit-learn scikit-image scipy pandas 
-  /opt/conda/bin/conda install -c anaconda numpy pytest flake8 tensorflow-tensorboard
-  /opt/conda/bin/conda install -c conda-forge tensorboardx tqdm protobuf onnx spectrum nibabel
-  
+  /opt/conda/bin/conda install opencv scikit-learn scikit-image scipy pandas
+
   # try a pip install
-  /opt/conda/bin/pip install torchtext
-  /opt/conda/bin/pip install pretrainedmodels
+  /opt/conda/bin/pip install pyro-ppl
+  /opt/conda/bin/pip install unidecode
 
 %runscript
   # executes with the singularity run command
@@ -48,4 +46,3 @@ From: marcchpc/pytorch_cuda9
 
 %test
   # test that script is a success
-
