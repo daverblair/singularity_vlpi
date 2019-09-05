@@ -30,16 +30,13 @@ From: marcchpc/pytorch_cuda9
   chmod +x /environment
 
   # default mount paths, files
-  mkdir /scratch /data /work-zfs
+  mkdir /scratch /data /work-zfs 
   touch /usr/bin/nvidia-smi
-
+  
   # user requests (contact marcc-help@marcc.jhu.edu)
-  /opt/conda/bin/conda install opencv scikit-learn scikit-image scipy pandas
-  /opt/conda/bin/conda install -c anaconda numpy pytest flake8 unidecode
-  /opt/conda/bin/conda install -c conda-forge tensorboardx tqdm protobuf onnx spectrum nibabel
-
+  /opt/conda/bin/conda install opencv scikit-learn scikit-image scipy pandas 
+  
   # try a pip install
-  /opt/conda/bin/pip install pyro-ppl
 
 %runscript
   # executes with the singularity run command
@@ -47,3 +44,4 @@ From: marcchpc/pytorch_cuda9
 
 %test
   # test that script is a success
+
