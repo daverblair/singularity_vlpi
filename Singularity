@@ -34,7 +34,7 @@ From: marcchpc/pytorch_cuda9
   touch /usr/bin/nvidia-smi
   
   # user requests (contact marcc-help@marcc.jhu.edu)
-  /opt/conda/bin/conda install opencv scikit-learn scikit-image scipy pandas 
+  #/opt/conda/bin/conda install opencv scikit-learn scikit-image scipy pandas 
   
   # try a pip install
 
