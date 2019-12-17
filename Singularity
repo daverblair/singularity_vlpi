@@ -33,10 +33,11 @@ From: marcchpc/pytorch_cuda9
   mkdir /scratch /data /work-zfs
   touch /usr/bin/nvidia-smi
 
-  # user requests (contact marcc-help@marcc.jhu.edu)
+  #conda installs
   /opt/conda/bin/conda install opencv scikit-learn scikit-image scipy pandas
+  /opt/conda/bin/conda install -c pytorch pytorch
 
-  # try a pip install
+  #pip installs
   /opt/conda/bin/pip install pyro-ppl
   /opt/conda/bin/pip install unidecode
 
