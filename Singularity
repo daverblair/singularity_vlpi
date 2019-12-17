@@ -34,8 +34,7 @@ From: marcchpc/pytorch_cuda9
   touch /usr/bin/nvidia-smi
 
   #conda installs (including pytorch)
-  /opt/conda/bin/conda install opencv scikit-learn scikit-image scipy pandas
-  /opt/conda/bin/conda install -c pytorch pytorch
+  /opt/conda/bin/conda install opencv scikit-learn scikit-image scipy pandas pytorch
 
   #pip installs
   /opt/conda/bin/pip install pyro-ppl
