@@ -33,7 +33,7 @@ From: marcchpc/pytorch_cuda9
   mkdir /scratch /data /work-zfs
   touch /usr/bin/nvidia-smi
 
-  #conda installs
+  #conda installs (including pytorch)
   /opt/conda/bin/conda install opencv scikit-learn scikit-image scipy pandas
   /opt/conda/bin/conda install -c pytorch pytorch
 
