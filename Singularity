@@ -39,6 +39,7 @@ From: marcchpc/pytorch_cuda9
   #pip installs
   /opt/conda/bin/pip install pyro-ppl
   /opt/conda/bin/pip install unidecode
+  /opt/conda/bin/pip install statsmodels
 
 %runscript
   # executes with the singularity run command
