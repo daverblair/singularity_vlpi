@@ -35,6 +35,7 @@ From: marcchpc/pytorch_cuda9
 
   #conda installs (including pytorch)
   /opt/conda/bin/conda install opencv scikit-learn scikit-image scipy pandas pytorch
+  /opt/conda/bin/conda install -c gwerbin pyro-ppl
 
   #pip installs 
   /opt/conda/bin/pip install bgen
