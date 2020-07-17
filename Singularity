@@ -34,14 +34,16 @@ From: marcchpc/pytorch_cuda9
   touch /usr/bin/nvidia-smi
 
   #conda installs (including pytorch)
-  /opt/conda/bin/conda install opencv scikit-learn scikit-image scipy pandas pytorch
+  /opt/conda/bin/conda install opencv scikit-learn scikit-image scipy pandas
   
 
   #pip installs 
+  /opt/conda/bin/pip install torch torchvision
   /opt/conda/bin/pip install bgen
   /opt/conda/bin/pip install pyro-ppl
   /opt/conda/bin/pip install unidecode
   /opt/conda/bin/pip install statsmodels
+  
   
 
 %runscript
