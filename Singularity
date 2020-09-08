@@ -33,16 +33,11 @@ From: marcchpc/pytorch_cuda9
   mkdir /scratch /data /work-zfs
   touch /usr/bin/nvidia-smi
 
-  #conda installs (including pytorch)
-  /opt/conda/bin/conda install opencv scikit-learn scikit-image scipy pandas
+  #conda installs
+  /opt/conda/bin/conda install libgcc opencv 
   
 
   #pip installs 
-  /opt/conda/bin/pip install torch torchvision
-  /opt/conda/bin/pip install bgen==1.2.7
-  /opt/conda/bin/pip install pyro-ppl
-  /opt/conda/bin/pip install unidecode
-  /opt/conda/bin/pip install statsmodels
   /opt/conda/bin/pip install vlpi
   /opt/conda/bin/pip install QRankGWAS
 	
