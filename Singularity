@@ -41,7 +41,8 @@ From: marcchpc/pytorch_cuda9
   /opt/conda/bin/pip install scikit-learn==0.22.1
   /opt/conda/bin/pip install vlpi
   /opt/conda/bin/pip install QRankGWAS
-	
+  /opt/conda/bin/pip install CrypticPhenoImpute
+		
   
   
 
