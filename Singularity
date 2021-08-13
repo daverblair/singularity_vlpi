@@ -41,7 +41,6 @@ From: marcchpc/pytorch_cuda9
   #pytorch fixed to 1.5.1
   /opt/conda/bin/pip install scikit-learn==0.22.1
   /opt/conda/bin/pip install vlpi==0.1.7
-  /opt/conda/bin/pip install QRankGWAS
   /opt/conda/bin/pip install CrypticPhenoImpute
 		
   
